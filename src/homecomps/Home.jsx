@@ -6,9 +6,10 @@ import EventsHome from "./EventsHome";
 import NewsHome from "./NewsHome";
 import TestimonialHome from "./TestimonialHome";
 import GalleryHome from "./GalleryHome";
-import VideoHome from "./VideoHome";
+import ApplyHome from "./ApplyHome";
 import WhyChoose from "./WhyChoose";
 import Youtube from "./Youtube";
+import Whatsapp from "./whatsapp/Whatsapp";
 const Home = () => {
   // useEffect(() => {
   //   // Function to handle scroll event
@@ -48,11 +49,12 @@ const Home = () => {
       <WhyChoose />
       <Youtube />
       <EventsHome />
-      <NewsHome />
-      <VideoHome />
+      {/* <NewsHome /> */}
       <TestimonialHome />
-      <GalleryHome />
+      <ApplyHome />
+      {/* <GalleryHome /> */}
       {/* <ContactHome /> */}
+      <Whatsapp />
     </div>
   );
 };

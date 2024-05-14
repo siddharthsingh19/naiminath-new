@@ -9,7 +9,7 @@ const EventsHome = () => {
   const latestThree = sortedData.slice(0, 3);
 
   return (
-    <section className="events-home">
+    <div className="events-home">
       <div className="why-wrapper">
         <h3 className="why-heading">Upcoming Events</h3>
         <hr className="hr" />
@@ -44,9 +44,11 @@ const EventsHome = () => {
             </div>
           ))}
         </div>
-        <button className="btns hero-btn">More Naiminath Events</button>
+        <button className="btns hero-btn more-btns">
+          More Naiminath Events
+        </button>
       </div>
-    </section>
+    </div>
   );
 };
 

@@ -65,3 +65,7 @@ section {
   color: var(--white);
   transition: background-color 0.3s ease; /* Apply transition to hover state */
 }
+
+.more-btns {
+  margin-top: 40px;
+}
