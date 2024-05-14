@@ -1,0 +1,49 @@
+.hero-img {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/public/wall.jpg");
+  background-size: cover; /* Make sure the background image covers the entire div */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Position the background image in the center of the div */
+  animation: zoomIn 10s infinite alternate ease-in-out; /* Apply the zoomIn animation */
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(1); /* Start with the original size */
+  }
+  50% {
+    transform: scale(1.2); /* Zoom in to 120% size halfway through */
+  }
+  100% {
+    transform: scale(1); /* Return to original size */
+  }
+}
+
+.element {
+  width: 800px; /* Set the width of the element */
+  height: 800px; /* Set the height of the element */
+  overflow: hidden; /* Hide overflow content */
+  position: relative; /* Position the element */
+}
+
+.element::before {
+  content: ""; /* Create a pseudo-element */
+  background-image: url("/public/wall.jpg"); /* Replace 'your-image.jpg' with your image URL */
+  background-size: cover; /* Make sure the background image covers the entire div */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Position the background image in the center of the div */
+  position: absolute; /* Position the pseudo-element absolutely */
+  top: 0; /* Align the pseudo-element to the top of the div */
+  left: 0; /* Align the pseudo-element to the left of the div */
+  width: 100%; /* Set the width of the pseudo-element to fill the div */
+  height: 100%; /* Set the height of the pseudo-element to fill the div */
+  transition: transform 0.5s; /* Apply a transition to the transform property */
+  z-index: -1; /* Move the pseudo-element behind the content */
+}
+
+.element:hover::before {
+  transform: scale(
+    1.2
+  ); /* Zoom the pseudo-element to 120% of its original size on hover */
+}

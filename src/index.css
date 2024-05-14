@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #0d1317;
+  --white: #eef1f2;
+  --red: #de0000ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+}
+
+/* body {
+  background-color: var(--black);
+  color: var(--white);
+} */
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+::selection {
+  background-color: #f9ff00ff;
+}
+
+section {
+  height: 100vh;
+}
+
+.section {
+  height: 100vh;
+}
+
+.btns {
+  padding: 20px 30px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  width: fit-content;
+  background-color: var(--red);
+  color: var(--white);
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hr {
+  border: none;
+  border-top: 2px solid var(--red);
+  /* width: 300px; */
+}
+
+.btns:hover {
+  background-color: var(--black);
+  color: var(--white);
+  transition: background-color 0.3s ease; /* Apply transition to hover state */
+}
