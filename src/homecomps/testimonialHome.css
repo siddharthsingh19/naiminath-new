@@ -50,3 +50,20 @@
   font-weight: 700;
   font-size: 0.8rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .testimonials {
+    width: 90vw;
+  }
+  .testimonial {
+    width: 80vw;
+  }
+  .testimonial > iframe {
+    width: 80vw;
+  }
+  .written {
+    width: 80vw;
+    height: max-content;
+    padding-bottom: 80px;
+  }
+}

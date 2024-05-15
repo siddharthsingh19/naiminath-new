@@ -33,14 +33,6 @@ body {
   background-color: #f9ff00ff;
 }
 
-section {
-  height: 100vh;
-}
-
-.section {
-  height: 100vh;
-}
-
 .btns {
   padding: 20px 30px;
   border: none;
@@ -68,4 +60,13 @@ section {
 
 .more-btns {
   margin-top: 40px;
+}
+.rest-btns {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+  section {
+    height: fit-content;
+  }
 }

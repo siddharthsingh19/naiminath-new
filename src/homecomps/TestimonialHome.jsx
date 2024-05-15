@@ -126,7 +126,9 @@ const TestimonialHome = () => {
               <div className="testimonial">{test.divtoshow}</div>
             ))}
           </div>
-          <button className="btns hero-btn">More Naiminath Reviews</button>
+          <button className="btns hero-btn rest-btns">
+            More Naiminath Reviews
+          </button>
         </div>
       </div>
     </>

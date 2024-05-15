@@ -73,3 +73,36 @@
 .why-heading {
   font-size: 2rem;
 }
+
+/* #################responsive############### */
+
+@media only screen and (max-width: 600px) {
+  .about-container {
+    height: max-content;
+    padding: 100px 0;
+  }
+  .about-wrapper {
+    flex-direction: column;
+  }
+
+  .about-heading {
+    font-size: 3rem;
+  }
+
+  .about-p {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .about-img {
+    display: flex;
+  }
+
+  .img1 {
+    width: 80vw;
+    z-index: 1;
+  }
+  .img2 {
+    bottom: -130px;
+  }
+}

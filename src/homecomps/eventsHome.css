@@ -104,3 +104,16 @@
   position: absolute;
   bottom: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+  .eventTiles {
+    flex-direction: column;
+  }
+  .latest-tile {
+    width: 80vw;
+  }
+  .letitle {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}

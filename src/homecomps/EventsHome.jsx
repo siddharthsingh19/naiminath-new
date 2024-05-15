@@ -44,7 +44,7 @@ const EventsHome = () => {
             </div>
           ))}
         </div>
-        <button className="btns hero-btn more-btns">
+        <button className="btns hero-btn more-btns rest-btns">
           More Naiminath Events
         </button>
       </div>

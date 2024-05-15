@@ -62,3 +62,21 @@
 .card-desc {
   font-size: 1.1rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .why-wrapper {
+    margin-top: 70px;
+  }
+
+  .why-heading {
+    text-align: center;
+  }
+
+  .why-cards {
+    flex-direction: column;
+  }
+  .why-card {
+    width: 300px;
+    text-align: center;
+  }
+}

@@ -99,3 +99,21 @@
     box-shadow: 0 0 0 0 rgba(76, 175, 80, 0);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .yt-sec {
+    height: 100vh;
+  }
+
+  .yt-sec-wrapper {
+    flex-direction: column;
+    gap: 130px;
+  }
+  .yt-head {
+    font-size: 2rem;
+    padding: 20px;
+  }
+  .yt-p {
+    padding: 20px;
+  }
+}

@@ -25,7 +25,7 @@ const AboutHome = () => {
               more than 200 patients visit the Outdoor Department every day and
               around 40 patients are present in the Indoor Department.
             </p>
-            <button className="btns">Read More</button>
+            <button className="btns rest-btns">Read More</button>
           </div>
           <div className="about-img">
             <img src="/clg1.jpg" alt="" className="img img1" />

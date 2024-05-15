@@ -21,7 +21,7 @@ const ApplyHome = () => {
             students who are inquisitive, passionate, original and determined to
             grow.
           </p>
-          <button className="btns hero-btn">Apply Now</button>
+          <button className="btns hero-btn  rest-btns">Apply Now</button>
         </div>
       </div>
       <div className="counter">
