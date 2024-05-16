@@ -4,6 +4,7 @@ import books from "/books.jpg";
 import clg2 from "/clg2.jpg";
 
 import clg3 from "/clg3.png";
+import { FaAnglesDown } from "react-icons/fa6";
 
 const BlogsHome = () => {
   const blogs = [
@@ -39,12 +40,9 @@ const BlogsHome = () => {
   return (
     <div className="blogs-home">
       <div className="blogs-home-wrapper">
-        <div className="blogs-top">
-          <div className="blogs-top-left">
-            <h3 className="why-heading">Blogs</h3>
-            <hr className="hr" />
-          </div>
-          <button className="btns hero-btn">More Blogs</button>
+        <div className="why-wrapper">
+          <h3 className="why-heading">Blogs</h3>
+          <hr className="hr" />
         </div>
         <div className="blogs-main">
           <div className="blogs-main-right">
@@ -77,6 +75,9 @@ const BlogsHome = () => {
                 </div>
               </div>
             ))}
+            <a href="https://naiminathayurveda.org/blog" target="_blank">
+              <FaAnglesDown color="#de0000ff" />
+            </a>
           </div>
           <div className="blogs-main-left">
             {hoveredIndex !== null && (
@@ -89,6 +90,7 @@ const BlogsHome = () => {
           </div>
         </div>
       </div>
+      {/* <button className="btns hero-btn blog-btn">More Blogs</button> */}
     </div>
   );
 };
