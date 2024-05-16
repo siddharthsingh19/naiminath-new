@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./blogsHome.css";
 import books from "/books.jpg";
+import a1 from "/1.jpeg";
 import clg2 from "/clg2.jpg";
 
 import clg3 from "/clg3.png";
@@ -9,13 +10,13 @@ import { FaAnglesDown } from "react-icons/fa6";
 const BlogsHome = () => {
   const blogs = [
     {
-      img: books,
+      img: clg2,
       title: "Unlocking the Wisdom of Ayurveda",
       desc: "Welcome to Naiminath Ayurvedic Medical College, where tradition meets innovation in the realm of holistic healthcare. In this inaugural blog post, we'll take a journey through the corridors of this esteemed institution, exploring its rich history, academic offerings, and commitment to preserving and advancing the ancient science of Ayurveda.Established with a vision to revive and promote the age-old wisdom of Ayurveda, Naiminath Ayurvedic Medical College stands as a beacon of excellence in the field of alternative medicine. Nestled amidst serene surroundings, our college provides an ideal environment for students to delve deep into the teachings of Ayurveda and emerge as proficient healers. At Naiminath, we believe in fostering a holistic approach to education, combining traditional teachings with modern scientific advancements. Our curriculum is meticulously designed to impart comprehensive knowledge of Ayurvedic principles, herbal medicine, therapeutic techniques, and diagnostic methods. Students are not only equipped with theoretical understanding but also receive hands-on training through clinical practice and research projects.      Beyond academics, Naiminath Ayurvedic Medical College is a vibrant community of like-minded individuals passionate about promoting health and wellness. Our faculty comprises experienced practitioners and scholars who are dedicated to nurturing the next generation of Ayurvedic physicians. Whether you're embarking on a journey to become an Ayurvedic doctor or seeking alternative healthcare solutions, Naiminath Ayurvedic Medical College welcomes you to explore the timeless wisdom of Ayurveda and embark on a path to holistic well-being. Stay tuned for our upcoming blogs, where we'll delve deeper into the various facets of Ayurvedic education and the unique offerings of Naiminath Ayurvedic Medical College.",
       date: "13 May",
     },
     {
-      img: clg2,
+      img: a1,
       title: "Embracing Innovation in Ayurvedic Medicine",
       desc: "While rooted in tradition, Ayurveda is not static. It is a dynamic system of medicine that has evolved over thousands of years, adapting to changing circumstances and incorporating new knowledge and techniques along the way. At Naiminath, we recognize the importance of innovation in keeping Ayurveda relevant and effective in the modern context. Our faculty members are actively engaged in research and development, exploring innovative approaches to Ayurvedic diagnosis, treatment, and prevention. From standardizing herbal formulations to leveraging cutting-edge technologies for diagnostic imaging, we strive to integrate the best of both worlds, preserving the authenticity of Ayurveda while harnessing the power of modern science. Additionally, our collaborations with other institutions and healthcare organizations enable us to stay abreast of the latest advancements in integrative medicine, ensuring that our students are well-equipped to navigate the complexities of today's healthcare landscape. As we look to the future, Naiminath Ayurvedic Medical College remains committed to pushing the boundaries of Ayurvedic medicine, pioneering new paths in research, education, and patient care. Through our dedication to innovation and excellence, we aim to uphold the legacy of Ayurveda and make meaningful contributions to the health and well-being of individuals and communities worldwide.",
       date: "11 May",

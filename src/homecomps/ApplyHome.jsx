@@ -2,8 +2,8 @@ import React from "react";
 import "./applyHome.css";
 
 const counters = [
-  { num: 1570, val: "Students" },
-  { num: 1570, val: "Students" },
+  { num: 3570, val: "Students" },
+  { num: 170, val: "Research Publications" },
   { num: 3, val: "National Awards" },
   { num: 150, val: "Top Instructors and Experts" },
 ];

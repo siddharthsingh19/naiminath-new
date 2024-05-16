@@ -18,7 +18,9 @@ const Youtube = () => {
           <div className="icon-container">
             <div className="yt-sec-right">
               <div className="border-grow">
-                <FaPlay className="play-icon" size={80} color="red" />
+                <a href="https://www.youtube.com/@nhmcagra" target="_blank">
+                  <FaPlay className="play-icon" size={80} color="red" />
+                </a>
                 <div className="pulse"></div>
               </div>
             </div>
