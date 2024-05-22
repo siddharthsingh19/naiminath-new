@@ -7,6 +7,7 @@ const Hero = () => {
       <div className="hero-wrapper">
         <div class="element">
           <div class="content" style={{ color: "#eef1f2" }}>
+            {/* <div class="content" style={{ color: "black" }}> */}
             <h2 className="hero-heading">
               Discover The World of Possibilities with Naiminath
             </h2>
