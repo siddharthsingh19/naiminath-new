@@ -25,8 +25,8 @@
 
 .wa-icon {
   background-color: var(--white);
-  border-radius: 8px;
-  padding: 8px;
+  border-radius: 50px;
+  padding: 1px;
 }
 .wa-icon:hover {
   transform: scale(1.1);
