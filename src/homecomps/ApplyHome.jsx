@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import "./applyHome.css";
+import ShowModal from "./modal/ShowModal";
 
 const counters = [
   { num: 3570, val: "Students" },
@@ -9,6 +10,16 @@ const counters = [
 ];
 
 const ApplyHome = () => {
+  const [showModal, setshowModal] = useState(false)
+  const closeModal = () => setshowModal(false)
+
+  if (showModal) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "auto";
+  }
+
+
   return (
     <div className="applyHome">
       <div className="apply-box">
@@ -21,8 +32,9 @@ const ApplyHome = () => {
             students who are inquisitive, passionate, original and determined to
             grow.
           </p>
-          <button className="btns hero-btn rest-btns">Apply Now</button>
+          <button className="btns hero-btn rest-btns" onClick={() => setshowModal(!showModal)}>Apply Now</button>
         </div>
+        {showModal && <ShowModal closeModal={closeModal} />}
       </div>
       <div className="counter">
         <div className="counts">
