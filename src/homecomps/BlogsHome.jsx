@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import "./blogsHome.css";
 import books from "/books.jpg";
 import a1 from "/1.jpeg";
-import clg2 from "/clg2.jpg";
-
+import clg2 from "/clg2.jpg"; 
 import clg3 from "/clg3.png";
 import { FaAnglesDown } from "react-icons/fa6";
 
