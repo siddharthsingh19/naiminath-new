@@ -28,6 +28,17 @@
   color: var(--white);
 } */
 
+.slick-slide>div {
+  margin: 0 5px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  height: 80px !important;
+  color: red !important;
+}
+
+
 body {
   background-color: var(--white);
   color: var(--black);

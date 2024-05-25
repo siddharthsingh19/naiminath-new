@@ -13,6 +13,7 @@ import Whatsapp from "./whatsapp/Whatsapp";
 import BlogsHome from "./BlogsHome";
 import SocialPost from "./SocialPost";
 import Glimpse from "./Glimpse";
+import Treatment from "../Treatment";
 const Home = () => {
   // useEffect(() => {
   //   // Function to handle scroll event
@@ -50,7 +51,9 @@ const Home = () => {
       <Hero />
       <AboutHome />
       <WhyChoose />
+
       <Youtube />
+      <Treatment />
       <BlogsHome />
       {/* <NewsHome /> */}
       <TestimonialHome />

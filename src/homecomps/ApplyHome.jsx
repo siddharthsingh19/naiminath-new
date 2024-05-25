@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./applyHome.css";
 import ShowModal from "./modal/ShowModal";
 
 const counters = [
-  { num: 3570, val: "Students" },
-  { num: 170, val: "Research Publications" },
-  { num: 3, val: "National Awards" },
-  { num: 150, val: "Top Instructors and Experts" },
+  { num: "5, 76,000 +", val: "Patients Treated" },
+  { num: "100+", val: "Research Publications" },
+  { num: "3+", val: "Best College Awards" },
 ];
 
 const ApplyHome = () => {
@@ -18,6 +17,26 @@ const ApplyHome = () => {
   } else {
     document.body.style.overflow = "auto";
   }
+
+
+  const [visitCount, setVisitCount] = useState(16);
+  const generateUniqueId = () => Math.random().toString(36)
+
+  useEffect(() => {
+    const uniqueId = localStorage.getItem('uniqueId');
+    // if (!uniqueId) {
+    const newUniqueId = generateUniqueId();
+    localStorage.setItem('uniqueId', newUniqueId);
+    const currentCount = localStorage.getItem('visitCount') || 0;
+    const newCount = parseInt(currentCount) + 1;
+    localStorage.setItem('visitCount', newCount);
+    setVisitCount(newCount);
+    // } else {
+    //   const currentCount = localStorage.getItem('visitCount');
+    //   setVisitCount(currentCount);
+    // }
+  }, []);
+
 
 
   return (
@@ -44,6 +63,11 @@ const ApplyHome = () => {
               <div className="count-val">{item.val}</div>
             </div>
           ))}
+          <div className="count">
+
+            <div className="count-num">{visitCount}</div>
+            <div className="count-val">Total Visit</div>
+          </div>
         </div>
       </div>
     </div>

@@ -5,7 +5,6 @@ import events from "../events";
 const EventsHome = () => {
   const sortedData = events.sort((a, b) => new Date(b.date) - new Date(a.date));
 
-  console.log(sortedData);
   const latestThree = sortedData.slice(0, 3);
 
   return (
