@@ -14,6 +14,7 @@ import BlogsHome from "./BlogsHome";
 import SocialPost from "./SocialPost";
 import Glimpse from "./Glimpse";
 import Treatment from "../Treatment";
+import Brochure from "./Brochure";
 const Home = () => {
   // useEffect(() => {
   //   // Function to handle scroll event
@@ -64,6 +65,7 @@ const Home = () => {
       {/* <GalleryHome /> */}
       {/* <ContactHome /> */}
       <Whatsapp />
+      <Brochure />
     </div>
   );
 };
