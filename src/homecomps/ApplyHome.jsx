@@ -19,15 +19,15 @@ const ApplyHome = () => {
   }
 
 
-  const [visitCount, setVisitCount] = useState(16);
+  const [visitCount, setVisitCount] = useState(20000);
   const generateUniqueId = () => Math.random().toString(36)
 
   useEffect(() => {
-    const uniqueId = localStorage.getItem('uniqueId');
+    // const uniqueId = localStorage.getItem('uniqueId');
     // if (!uniqueId) {
-    const newUniqueId = generateUniqueId();
-    localStorage.setItem('uniqueId', newUniqueId);
-    const currentCount = localStorage.getItem('visitCount') || 0;
+    //   const newUniqueId = generateUniqueId();
+    // localStorage.setItem('uniqueId', newUniqueId); 
+    const currentCount = localStorage.getItem('visitCount') || 0
     const newCount = parseInt(currentCount) + 1;
     localStorage.setItem('visitCount', newCount);
     setVisitCount(newCount);
@@ -65,8 +65,8 @@ const ApplyHome = () => {
           ))}
           <div className="count">
 
-            <div className="count-num">{visitCount}</div>
-            <div className="count-val">Total Visit</div>
+            <div className="count-num">{visitCount} +</div>
+            <div className="count-val">Total Website Visit's</div>
           </div>
         </div>
       </div>
