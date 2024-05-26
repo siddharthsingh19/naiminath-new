@@ -26,10 +26,11 @@ const ApplyHome = () => {
     // const uniqueId = localStorage.getItem('uniqueId');
     // if (!uniqueId) {
     //   const newUniqueId = generateUniqueId();
-    // localStorage.setItem('uniqueId', newUniqueId); 
-    const currentCount = localStorage.getItem('visitCount') || visitCount
-    const newCount = parseInt(currentCount) + 1;
-    localStorage.setItem('visitCount', newCount);
+    // localStorage.setItem('uniqueId', newUniqueId);
+    localStorage.setItem('visitCount', 0)
+    const currentCount = localStorage.getItem('visitCount') || 0
+    const newCount = parseInt(currentCount);
+    // localStorage.setItem('visitCount', newCount);
     setVisitCount(newCount);
     // } else {
     //   const currentCount = localStorage.getItem('visitCount');
