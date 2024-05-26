@@ -33,7 +33,6 @@ const Glimpse = () => {
                         <img
                             className="h-full w-full max-w-full rounded-lg  object-center transform transition-transform duration-300 hover:scale-110"
                             src={obj.imageLink}
-                            loading='lazy'
                             alt="gallery-photo"
                         />
                     </div>
