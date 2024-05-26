@@ -27,7 +27,7 @@ const ApplyHome = () => {
     // if (!uniqueId) {
     //   const newUniqueId = generateUniqueId();
     // localStorage.setItem('uniqueId', newUniqueId); 
-    const currentCount = localStorage.getItem('visitCount') || 0
+    const currentCount = localStorage.getItem('visitCount') || visitCount
     const newCount = parseInt(currentCount) + 1;
     localStorage.setItem('visitCount', newCount);
     setVisitCount(newCount);
