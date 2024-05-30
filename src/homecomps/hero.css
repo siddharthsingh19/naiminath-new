@@ -2,11 +2,12 @@
 .element {
   width: 99vw;
   /* Set the width of the element */
-  height: 99vh;
+  height: 100vh;
   /* Set the height of the element */
   overflow: hidden;
   /* Hide overflow content */
   position: relative;
+  
   /* Position the element */
 }
 
@@ -146,40 +147,28 @@
     /* Move the content back to its original position */
   }
 }
-
+/* 
 .element::before {
   content: "";
-  /* Create a pseudo-element */
   background-image: url("/public/nan.avif");
-  /* Replace 'your-image.jpg' with your image URL */
   background-size: cover;
-  /* Make sure the background image covers the entire div */
   background-repeat: no-repeat;
-  /* Prevent the background image from repeating */
   background-position: center;
-  /* Position the background image in the center of the div */
   position: absolute;
-  /* Position the pseudo-element absolutely */
   top: 0;
-  /* Align the pseudo-element to the top of the div */
   left: 0;
-  /* Align the pseudo-element to the left of the div */
   width: 100%;
-  /* Set the width of the pseudo-element to fill the div */
   height: 100%;
-  /* Set the height of the pseudo-element to fill the div */
   animation: zoomIn 10s infinite alternate ease-in-out;
-  /* Apply the zoomIn animation */
   z-index: 0;
-  /* Move the pseudo-element behind the content */
   transform: translateY(-20px);
-  /* Move the background image up initially */
-}
+
+} */
 
 .element::after {
   content: "";
   /* Create a pseudo-element */
-  background-image: linear-gradient(45deg, #000000, #ffffff7d);
+  background-image: linear-gradient(45deg, #00000045, #ffffff7d);
   /* Replace 'your-image.jpg' with your image URL */
   background-size: cover;
   /* Make sure the background image covers the entire div */
@@ -196,7 +185,7 @@
   width: 100%;
   /* Set the width of the pseudo-element to fill the div */
   height: 100%;
- 
+
 }
 
 @keyframes zoomIn {
@@ -207,6 +196,7 @@
 
   100% {
     transform: scale(1.2) translateY(0);
+
     /* Zoom in to 120% size and move back to its original position */
   }
 }

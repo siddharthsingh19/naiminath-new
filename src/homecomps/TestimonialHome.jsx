@@ -52,7 +52,7 @@ const testimonials = [
       <iframe
         width="400"
         height="220"
-        src="https://www.youtube.com/embed/wlOJYMW13zc?si=5AGeTamc7fjsITl5"
+        src="https://www.youtube.com/embed/1KE89Nvwfko?si=kiXmA0ApQWxoAtUr"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -103,7 +103,7 @@ const testimonials = [
         width="400"
         // width="560"
         height="220"
-        src="https://www.youtube.com/embed/7_s8wssOzuc?si=P2ei7T5c5TkDGBPt"
+        src="https://www.youtube.com/embed/1KE89Nvwfko?si=kiXmA0ApQWxoAtUr"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
