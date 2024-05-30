@@ -52,7 +52,7 @@ const Hero = () => {
     <div className="relative ">
       <Slider {...settings}>
         {slides.map((slide, index) => (
-          <div key={index} className="element bg-black ">
+          <div key={index} className="element ">
             <div
               className="absolute inset-0 w-[99vw] h-full bg-cover bg-center"
               style={{ backgroundImage: `url(${slide.image})` }}
