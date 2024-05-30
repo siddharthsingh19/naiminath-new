@@ -168,7 +168,7 @@
 .element::after {
   content: "";
   /* Create a pseudo-element */
-  background-image: linear-gradient(45deg, #00000070, #ffffff7d);
+  /* background-image: linear-gradient(45 deg, #00000070, #ffffff7d); */
   /* Replace 'your-image.jpg' with your image URL */
   background-size: cover;
   /* Make sure the background image covers the entire div */
