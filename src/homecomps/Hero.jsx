@@ -28,16 +28,16 @@ const Hero = () => {
 
   const slides = [
     {
-      id: 1,
-      image: '/nan.avif',
-      text: 'Slide Title 1',
-      description: 'This is the description for slide 1.',
-    },
-    {
       id: 2,
       image: '/certificate.png',
       text: 'Slide Title 2',
       description: 'This is the description for slide 2.',
+    },
+    {
+      id: 1,
+      image: '/nan.avif',
+      text: 'Slide Title 1',
+      description: 'This is the description for slide 1.',
     },
     {
       id: 3,
@@ -49,14 +49,16 @@ const Hero = () => {
   ];
 
   return (
-    <div className="relative ">
+    <div className=" ">
       <Slider {...settings}>
         {slides.map((slide, index) => (
-          <div key={index} className="element ">
-            <div
-              className="absolute inset-0 w-[99vw] h-full bg-cover bg-center"
+          <div key={index} className="md:h-[100vh] h-[50vh] w-[90vw] overflow-hidden  object-cover ">
+            {/* <div
+              className="absolute inset-0  bg-cover bg-center"
               style={{ backgroundImage: `url(${slide.image})` }}
-            />
+            /> */}
+
+            <img src={slide.image} className="h-full w-full" alt="" />
             {/* <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center z-[999] ">
               <h2 className="text-white text-3xl font-bold">{slide.text}</h2>
             </div> */}
