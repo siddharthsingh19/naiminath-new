@@ -27,12 +27,12 @@ const Hero = () => {
   };
 
   const slides = [
-    // {
-    //   id: 1,
-    //   image: '/public/nan.avif',
-    //   text: 'Slide Title 1',
-    //   description: 'This is the description for slide 1.',
-    // },
+    {
+      id: 1,
+      image: '/public/nan.avif',
+      text: 'Slide Title 1',
+      description: 'This is the description for slide 1.',
+    },
     {
       id: 2,
       image: '/public/certificate.png',
