@@ -35,7 +35,7 @@ const Hero = () => {
     },
     {
       id: 1,
-      image: '/nan.avif',
+      image: '/nan.jpg',
       text: 'Slide Title 1',
       description: 'This is the description for slide 1.',
     },
