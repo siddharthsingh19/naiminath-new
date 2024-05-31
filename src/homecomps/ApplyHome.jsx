@@ -3,7 +3,7 @@ import "./applyHome.css";
 import ShowModal from "./modal/ShowModal";
 
 const counters = [
-  { num: "5, 76,000 +", val: "Patients Treated" },
+  { num: "576 K+", val: "Patients Treated" },
   { num: "100+", val: "Research Publications" },
   { num: "3+", val: "Best College Awards" },
 ];
