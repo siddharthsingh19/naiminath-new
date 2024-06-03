@@ -7,19 +7,19 @@ const cardData = [
     img: <FaBookOpen />,
     heading: "Academics",
     desc: "At Naiminath, the educational journey knows no bounds. Our courses are guided by esteemed faculty members.",
-    btn: "",
+    btn: "https://naiminathayurveda.org/college/course",
   },
   {
     img: <FaUserGraduate />,
     heading: "Vibrant Student Life",
     desc: "Our housing system fosters additional learning opportunities by bringing together peers and professors from diverse backgrounds.",
-    btn: "",
+    btn: "https://naiminathayurveda.org/about/student-gallery",
   },
   {
     img: <FaGraduationCap />,
     heading: "Infrastructure",
     desc: "Our financial assistance program ensures that UniCamp is accessible to families all over India, regardless of their financial circumstances.",
-    btn: "",
+    btn: "https://naiminathayurveda.org/about/gallery",
   },
 ];
 
@@ -40,7 +40,7 @@ const WhyChoose = () => {
                 <div className="card-img">{card.img}</div>
                 <div className="card-heading">{card.heading}</div>
                 <div className="card-desc">{card.desc}</div>
-                <button className="btns">Learn More</button>
+                <a href={card.btn} className="btns">Learn More</a  >
               </div>
             ))}
           </div>

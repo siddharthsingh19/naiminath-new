@@ -15,6 +15,7 @@ import SocialPost from "./SocialPost";
 import Glimpse from "./Glimpse";
 import Treatment from "../Treatment";
 import Brochure from "./Brochure";
+import Opd from "./Opd";
 const Home = () => {
   // useEffect(() => {
   //   // Function to handle scroll event
@@ -54,9 +55,11 @@ const Home = () => {
       <WhyChoose />
 
       <Youtube />
+      <Opd />
       <Treatment />
       <BlogsHome />
       {/* <NewsHome /> */}
+
       <TestimonialHome />
       <SocialPost />
       <EventsHome />
