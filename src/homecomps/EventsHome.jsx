@@ -14,7 +14,7 @@ const EventsHome = () => {
         <hr className="hr" />
         <div className="eventTiles">
           {latestThree.map((event, index) => (
-            <div>
+            <div key={index}>
               {event.latest && (
                 <div
                   className="latest-tile"

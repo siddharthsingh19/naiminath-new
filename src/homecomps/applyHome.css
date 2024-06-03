@@ -37,7 +37,7 @@
   background-image: url("/lines.png");
   background-color: var(--red);
   width: 100%;
-  height: 250px;
+  height: 150px;
   position: absolute;
   bottom: 0;
   display: flex;
@@ -80,8 +80,15 @@
     padding-bottom: 0;
   }
 
+  .applyp {
+    text-align: start;
+  }
+
+
   .apply-sec {
+    text-align: start;
     width: 80vw;
+    padding: 10px;
   }
 
   .counter {

@@ -4,7 +4,7 @@ import ShowModal from "./modal/ShowModal";
 
 const counters = [
   { num: "576 K+", val: "Patients Treated" },
-  { num: "100+", val: "Research Publications" },
+  { num: "100+", val: "Treatment's" },
   { num: "3+", val: "Best College Awards" },
 ];
 

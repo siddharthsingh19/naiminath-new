@@ -36,7 +36,7 @@ const Treatment = () => {
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                     initialSlide: 1
                 }
@@ -45,7 +45,7 @@ const Treatment = () => {
     };
 
     return (
-        <div className='flex w-full flex-col justify-center my-[100px]'>
+        <div className='flex w-full flex-col justify-center mt-[100px] md:my-[100px]'>
             <div className="why-wrapper">
                 <h3 className="why-heading">List of Ayurvedic Treatments</h3>
                 <hr className="hr" />
@@ -55,7 +55,7 @@ const Treatment = () => {
                 <Slider {...settings}>
                     {
                         treatment.map((obj, i) => (
-                            <a href={obj.link} key={i} className="relative overflow-hidden h-[16rem] round-lg">
+                            <a href={obj.link} key={i} className="relative overflow-hidden md:h-[16rem] round-lg">
                                 <img
                                     className="h-full w-full max-w-full rounded-lg  object-center transform transition-transform duration-300 "
                                     src={obj.image}
@@ -63,7 +63,7 @@ const Treatment = () => {
                                     alt="gallery-photo"
                                 />
 
-                                <div className='absolute inset-0 flex items-center justify-center font-extrabold text-xl 
+                                <div className='absolute inset-0 flex items-center justify-center text-[14px] md:font-extrabold md:text-xl 
                         transition-opacity duration-300 bg-black bg-opacity-50 text-white text-center rounded-lg'>
                                     {obj.text}
                                 </div>

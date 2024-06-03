@@ -17,7 +17,7 @@ const cardData = [
   },
   {
     img: <FaGraduationCap />,
-    heading: "Scholarships",
+    heading: "Infrastructure",
     desc: "Our financial assistance program ensures that UniCamp is accessible to families all over India, regardless of their financial circumstances.",
     btn: "",
   },
