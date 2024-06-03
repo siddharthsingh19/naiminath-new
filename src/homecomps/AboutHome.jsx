@@ -10,10 +10,9 @@ const AboutHome = () => {
           <div className="about-content">
             <h3 className="about-heading">Welcome to Naiminath</h3>
             <p className="about-p">
-              Naiminath Ayurvedic College, Hospital and Research Centre is a pioneer in the field of Ayurvedic treatment in the world. The Hospital offers treatment for every ailment and is extremely affordable. The Hospital is successfully running Out patient departments in Kayachikitsa, Kaumarbhritya, Panchkarma, Prasuti & Stri Roga, Shalakya tantra, Shalya tantra, Swasthavritta, Dental and Physiotherapy. The Hospital prides itself in providing a well-equipped, hygienically maintained panchkarma therapy rooms to suit the need and affordability of one and all.  <br />
+              Naiminath Ayurveda holds a commitment to providing quality education and top-notch facilities in the field of ayurveda medicine. We are a 100 bedded state of art Ayurvedic Hospital which is functional since 2016, where more than 200 patients visit the Outpatient Department every day and around 40 patients are present in the Inpatient Department.  <br />
               <br />
-              To provide world class education and treatment, this 100 bedded state of art Ayurvedic Hospital is functional since 2016 where more than 200 patients visit the Outdoor Department every day and around 40 patients are present in the Indoor Department.
-
+              The college offers a comprehensive curriculum that not only covers traditional Ayurvedic practices but also integrates modern medical advancements with its emphasis on practical training and experiential learning. Students have access to well-equipped laboratories where they can develop their skills and gain hands-on experience under the guidance of experienced faculty members. This approach ensures that graduates are prepared to enter the professional world with confidence and expertise. The Hospital prides itself in providing a well-equipped, hygienically maintained panchkarma therapy rooms to suit the need and affordability of one and all.
 
             </p>
             <button className="btns rest-btns">Read More</button>

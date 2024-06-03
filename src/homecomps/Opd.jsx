@@ -6,7 +6,7 @@ import Slider from 'react-slick';
 
 const Opd = () => {
     const treatment = [
-        { image: "/images/images.jpeg", text: "Kaumarbhritya", link: "https://naiminathayurveda.org/hospital/opd?id=1" },
+        // { image: "/images/images.jpeg", text: "Kaumarbhritya", link: "https://naiminathayurveda.org/hospital/opd?id=1" },
         { image: "/images/opd2.jpg", text: "Kayachikitsa", link: "https://naiminathayurveda.org/hospital/opd?id=0" },
         { image: "/images/opd3.jpg", text: "Panchkarma", link: "https://naiminathayurveda.org/hospital/opd?id=2" },
         { image: "/images/opd4.jpg", text: "Prasuti & Stri Roga", link: "https://naiminathayurveda.org/hospital/opd?id=3" },
