@@ -52,7 +52,7 @@ const Hero = () => {
     <div className=" ">
       <Slider {...settings}>
         {slides.map((slide, index) => (
-          <div key={index} className="md:h-[100vh] h-[50vh] w-[90vw] overflow-hidden  object-cover ">
+          <div key={index} className="md:h-[80vh] h-[50vh] w-[90vw] overflow-hidden  object-cover ">
             {/* <div
               className="absolute inset-0  bg-cover bg-center"
               style={{ backgroundImage: `url(${slide.image})` }}
