@@ -53,20 +53,21 @@ const Opd = () => {
                 <Slider {...settings}>
                     {
                         treatment.map((obj, i) => (
-                            <a href={obj.link} key={i} className="relative overflow-hidden md:h-[10rem] round-lg">
-                                <img
-                                    className="h-full w-full max-w-full rounded-lg  object-center transform transition-transform duration-300 "
-                                    src={obj.image}
-                                    loading='lazy'
-                                    alt="gallery-photo"
-                                />
+                            <a key={i} href={obj.link} className="slide-link">
+                                <div key={i} className=" p-[8px] text-center slide-content relative">
+                                    <div
+                                        className=" h-[12vh] w-[18vw] md:h-[210px] md:w-[235px] bg-cover bg-no-repeat rounded-[10px]"
+                                        style={{ backgroundImage: `url(${obj.image})` }}
+                                    />
+                                    {/* <p className="[10px] text-center slide-content flex flex-col items-center"> */}
 
-                                <div className='absolute inset-0 flex items-center justify-center text-[14px] md:font-extrabold md:text-xl 
-                        transition-opacity duration-300 bg-black bg-opacity-50 text-white text-center rounded-lg'>
-                                    {obj.text}
+                                    <p className="text-[11px] sm:text-[11px] md:text-[18px] mt-2">
+                                        {/*                         <p className="absolute bottom-0 left-0 right-0 text-[11px] md:text-[18px] bg-white bg-opacity-75"> */}
+
+                                        {obj.text}
+                                    </p>
                                 </div>
                             </a>
-
                         ))
                     }
                 </Slider >
