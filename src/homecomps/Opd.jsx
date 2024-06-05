@@ -19,7 +19,7 @@ const Opd = () => {
         dots: true,
         infinite: true,
         arrows: true,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 2,
         responsive: [
             {
@@ -53,7 +53,7 @@ const Opd = () => {
                 <Slider {...settings}>
                     {
                         treatment.map((obj, i) => (
-                            <a href={obj.link} key={i} className="relative overflow-hidden md:h-[16rem] round-lg">
+                            <a href={obj.link} key={i} className="relative overflow-hidden md:h-[10rem] round-lg">
                                 <img
                                     className="h-full w-full max-w-full rounded-lg  object-center transform transition-transform duration-300 "
                                     src={obj.image}
