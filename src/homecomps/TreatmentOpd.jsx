@@ -5,7 +5,7 @@ const TreatmentOpd = () => {
     return (
         <div>
             <div className="w-full flex flex-col justify-center items-center md:bg-cover bg-no-repeat
-      bg-[url('https://naiminath.org/image/deseas-bg.jpg')]  font-sans"
+      bg-[url('https://naiminath.org/image/deseas-bg.jpg')] bg-opacity-25 font-sans"
             >
 
                 <Treatment />

@@ -5,7 +5,7 @@ const Glimpse = () => {
     const Gallery = [
         {
             imageLink:
-                "/glimpse/classroom.JPG",
+                "/glimpse/main.jpg",
         },
         {
             imageLink:
@@ -13,13 +13,12 @@ const Glimpse = () => {
         },
         {
             imageLink:
-                "/glimpse/couter.JPG",
+                "/glimpse/classroom.JPG",
         },
         {
             imageLink:
-                "/glimpse/dance.JPG",
+                "/glimpse/couter.JPG",
         },
-
     ]
     return (
         <div className='flex w-full flex-col justify-center my-[100px]'>

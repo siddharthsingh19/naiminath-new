@@ -18,7 +18,7 @@ const cardData = [
   {
     img: <FaGraduationCap />,
     heading: "Infrastructure",
-    desc: "Our financial assistance program ensures that UniCamp is accessible to families all over India, regardless of their financial circumstances.",
+    desc: "The foundation for success. Our infrastructure solutions create a thriving landscape for businesses and residents alike.",
     btn: "https://naiminathayurveda.org/about/gallery",
   },
 ];
