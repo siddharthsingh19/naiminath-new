@@ -10,8 +10,8 @@ const EventsHome = () => {
   return (
     <div className="events-home">
       <div className="why-wrapper">
-        <h3 className="why-heading">Upcoming Events</h3>
-        <hr className="hr" />
+        <h3 className="why-heading lined-heading">Upcoming Events</h3>
+        {/* <hr className="hr" /> */}
         <div className="eventTiles">
           {latestThree.map((event, index) => (
             <div key={index}>

@@ -16,6 +16,7 @@ import Glimpse from "./Glimpse";
 import Treatment from "../Treatment";
 import Brochure from "./Brochure";
 import Opd from "./Opd";
+import TreatmentOpd from "./TreatmentOpd";
 const Home = () => {
   // useEffect(() => {
   //   // Function to handle scroll event
@@ -54,9 +55,10 @@ const Home = () => {
       <AboutHome />
       <WhyChoose />
 
+      <TreatmentOpd />
       <Youtube />
-      <Opd />
-      <Treatment />
+      {/* <Opd />
+      <Treatment /> */}
       <BlogsHome />
       {/* <NewsHome /> */}
 

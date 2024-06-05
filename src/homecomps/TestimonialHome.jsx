@@ -119,8 +119,8 @@ const TestimonialHome = () => {
     <>
       <div className="testimonial-container">
         <div className="why-wrapper">
-          <h3 className="why-heading">What our students say about us</h3>
-          <hr className="hr" />
+          <h3 className="why-heading lined-heading">What our students say about us</h3>
+          {/* <hr className="hr" /> */}
           <div className="testimonials">
             {testimonials.map((test, index) => (
               <div className="testimonial">{test.divtoshow}</div>

@@ -43,10 +43,10 @@ const Opd = () => {
     };
 
     return (
-        <div className='flex w-full flex-col justify-center mt-[100px] md:my-[100px]'>
+        <div className='flex w-full flex-col justify-center mt-[0px] mb-[80px] md:mt-[-43px] md:mb-[50px]'>
             <div className="why-wrapper">
-                <h3 className="why-heading">Our OPDs</h3>
-                <hr className="hr" />
+                <h3 className="why-heading lined-heading">Our OPDs</h3>
+                {/* <hr className="hr" /> */}
             </div>
             <div className="h-auto px-8 md:px-[40px] mt-16  m-auto  group-hover:bg-black max-w-[1366px] w-full justify-center items-center">
 

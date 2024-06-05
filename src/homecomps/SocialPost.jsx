@@ -40,8 +40,8 @@ const SocialPost = () => {
     return (
         <div className='flex w-full flex-col justify-center my-[100px]'>
             <div className="why-wrapper">
-                <h3 className="why-heading">See our world! Follow us on Instagram</h3>
-                <hr className="hr" />
+                <h3 className="why-heading lined-heading">See our world! Follow us on Instagram</h3>
+                {/* <hr className="hr" /> */}
             </div>
             <div className="h-auto px-8 md:px-[44px] mt-16 gap-4 grid grid-cols-1 m-auto md:grid-cols-4 group-hover:bg-black max-w-[1366px] justify-center items-center">
                 {Gallery.map(({ imageLink }, index) => (

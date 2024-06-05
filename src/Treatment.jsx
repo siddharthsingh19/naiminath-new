@@ -45,12 +45,12 @@ const Treatment = () => {
     };
 
     return (
-        <div className='flex w-full flex-col justify-center mt-[100px] md:my-[100px]'>
+        <div className='flex w-full flex-col justify-center mt-[0px] md:my-[80px]'>
             <div className="why-wrapper">
-                <h3 className="why-heading">List of Ayurvedic Treatments</h3>
+                <h3 className="why-heading lined-heading">List of Ayurvedic Treatments</h3>
                 <hr className="hr" />
             </div>
-            <div className="h-auto px-8 md:px-[40px] mt-16  m-auto  group-hover:bg-black max-w-[1366px] w-full justify-center items-center">
+            <div className="h-auto px-8 md:px-[40px] mt-10  m-auto  group-hover:bg-black max-w-[1366px] w-full justify-center items-center">
 
                 <Slider {...settings}>
                     {

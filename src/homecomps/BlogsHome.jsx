@@ -41,8 +41,8 @@ const BlogsHome = () => {
     <div className="blogs-home">
       <div className="blogs-home-wrapper">
         <div className="why-wrapper">
-          <h3 className="why-heading">Blogs</h3>
-          <hr className="hr" />
+          <h3 className="why-heading lined-heading">Blogs</h3>
+          {/* <hr className="hr" /> */}
         </div>
         <div className="blogs-main">
           <div className="blogs-main-right">

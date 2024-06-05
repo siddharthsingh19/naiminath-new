@@ -82,8 +82,34 @@ body {
   margin: 0 auto;
 }
 
+.lined-heading {
+  position: relative;
+}
+
+.lined-heading::after {
+  content: "";
+  /* position: absolute; */
+  display: table;
+  width: 100%;
+  left: 50%;
+  right: 50%;
+  /* margin: auto; */
+  height: 8px;
+  background: #fff500;
+  margin-top: -25px;
+}
+
 @media only screen and (max-width: 600px) {
   section {
     height: fit-content;
+  }
+
+  .lined-heading::after {
+    width: 50%;
+    left: 0%;
+    margin: auto;
+    right: 0%;
+    height: 4px;
+    margin-top: -7px;
   }
 }
