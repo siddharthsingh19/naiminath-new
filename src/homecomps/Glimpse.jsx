@@ -5,19 +5,19 @@ const Glimpse = () => {
     const Gallery = [
         {
             imageLink:
-                "/glimpse/main.jpg",
+                "/glimpse/main.avif",
         },
         {
             imageLink:
-                "/glimpse/herbal.JPG",
+                "/glimpse/herbal.avif",
         },
         {
             imageLink:
-                "/glimpse/classroom.JPG",
+                "/glimpse/classroom.avif",
         },
         {
             imageLink:
-                "/glimpse/couter.JPG",
+                "/glimpse/couter.avif",
         },
     ]
     return (

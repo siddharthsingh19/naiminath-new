@@ -55,7 +55,7 @@ const ApplyHome = () => {
         </div>
         {showModal && <ShowModal closeModal={closeModal} />}
       </div>
-      <div className="counter">
+      <div className="counter p-[100px_0]">
         <div className="counts">
           {counters.map((item, index) => (
             <div className="count">

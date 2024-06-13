@@ -5,35 +5,35 @@ const SocialPost = () => {
     const Gallery = [
         {
             imageLink:
-                "/insta/insta.jpg",
+                "/insta/insta.avif",
         },
         {
             imageLink:
-                "/insta/insta3.jpg",
+                "/insta/insta3.avif",
         },
         {
             imageLink:
-                "/insta/insta6.jpg",
+                "/insta/insta6.avif",
         },
         {
             imageLink:
-                "/insta/insta4.jpg",
+                "/insta/insta4.avif",
         },
         {
             imageLink:
-                "/insta/insta2.jpg",
+                "/insta/insta2.avif",
         },
         {
             imageLink:
-                "/insta/insta5.jpg",
+                "/insta/insta5.avif",
         },
         {
             imageLink:
-                "/insta/insta7.jpg",
+                "/insta/insta7.avif",
         },
         {
             imageLink:
-                "/insta/insta8.jpg",
+                "/insta/insta8.avif",
         },
 
     ]

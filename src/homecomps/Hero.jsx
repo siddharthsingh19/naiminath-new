@@ -29,19 +29,19 @@ const Hero = () => {
   const slides = [
     {
       id: 1,
-      image: '/nan.png',
+      image: '/nan2.avif',
       text: 'Slide Title 1',
       description: 'This is the description for slide 1.',
     },
     {
       id: 2,
-      image: '/certificate2.png',
+      image: '/certificate.avif',
       text: 'Slide Title 2',
       description: 'This is the description for slide 2.',
     },
     {
       id: 3,
-      image: '/bw2.png',
+      image: '/BW.avif',
       text: 'Slide Title 2',
       description: 'This is the description for slide 2.',
     },
