@@ -119,7 +119,7 @@ const TestimonialHome = () => {
     <>
       <div className="testimonial-container">
         <div className="why-wrapper">
-          <h3 className="why-heading lined-heading">What our students say about us</h3>
+          <h3 className="why-heading text-white roboto-serif-heading lined-heading">What our students say about us</h3>
           {/* <hr className="hr" /> */}
           <div className="testimonials">
             {testimonials.map((test, index) => (

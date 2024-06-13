@@ -1,4 +1,6 @@
 .events-home {
+  background: radial-gradient(circle, rgba(254, 174, 174, 0.45) 0%, rgba(204, 221, 242, 0.55) 100%);
+  padding: 100px 0;
   margin: 100px 0;
   /* background-color: #e9e7e7; */
 }
@@ -31,6 +33,7 @@
 .rest-tiles:hover {
   transform: scale(1.08);
   transition: transform 0.3s;
+
 }
 
 .ldesc {
@@ -51,10 +54,12 @@
   bottom: 40%;
   font-weight: 600;
 }
+
 .letitle {
   font-size: 2rem;
   font-weight: 600;
 }
+
 .letime {
   /* position: absolute; */
   bottom: 30px;
@@ -109,9 +114,11 @@
   .eventTiles {
     flex-direction: column;
   }
+
   .latest-tile {
     width: 80vw;
   }
+
   .letitle {
     font-size: 1.4rem;
     text-align: center;

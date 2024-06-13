@@ -1,11 +1,16 @@
-.why-container {}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+
+.why-container {
+  background: radial-gradient(circle, rgba(218, 237, 80, 0.45) 0%, rgba(204, 221, 242, 0.55) 100%);
+  padding: 100px 0;
+}
 
 .why-wrapper {}
 
 .why-heading {
   font-size: 3rem;
 }
-
 
 .hr {
   width: 100px;

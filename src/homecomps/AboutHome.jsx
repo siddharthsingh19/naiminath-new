@@ -8,7 +8,7 @@ const AboutHome = () => {
         <div className="about-wrapper">
           <hr className="hr" />
           <div className="about-content">
-            <h3 className="about-heading">Welcome to Naiminath</h3>
+            <h3 className="about-heading roboto-serif-heading">Welcome to Naiminath</h3>
             <p className="about-p">
               Naiminath Ayurveda holds a commitment to providing quality education and top-notch facilities in the field of ayurveda medicine. We are a 100 bedded state of art Ayurvedic Hospital which is functional since 2016, where more than 200 patients visit the Outpatient Department every day and around 40 patients are present in the Inpatient Department.  <br />
               <br />

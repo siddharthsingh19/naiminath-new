@@ -35,13 +35,13 @@ const Hero = () => {
     },
     {
       id: 2,
-      image: '/certificate.png',
+      image: '/certificate2.png',
       text: 'Slide Title 2',
       description: 'This is the description for slide 2.',
     },
     {
       id: 3,
-      image: '/BW.png',
+      image: '/bw2.png',
       text: 'Slide Title 2',
       description: 'This is the description for slide 2.',
     },

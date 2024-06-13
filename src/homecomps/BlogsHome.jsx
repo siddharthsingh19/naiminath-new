@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./blogsHome.css";
 import books from "/books.jpg";
 import a1 from "/1.jpeg";
-import clg2 from "/clg2.jpg"; 
+import clg2 from "/clg2.jpg";
 import clg3 from "/clg3.png";
 import { FaAnglesDown } from "react-icons/fa6";
 
@@ -41,7 +41,7 @@ const BlogsHome = () => {
     <div className="blogs-home">
       <div className="blogs-home-wrapper">
         <div className="why-wrapper">
-          <h3 className="why-heading lined-heading">Blogs</h3>
+          <h3 className="why-heading roboto-serif-heading lined-heading">Blogs</h3>
           {/* <hr className="hr" /> */}
         </div>
         <div className="blogs-main">
@@ -49,9 +49,8 @@ const BlogsHome = () => {
             {blogs.map((blog, index) => (
               <div
                 // className="blog-single"
-                className={`blog-single ${
-                  hoveredIndex === index ? "hovered" : "unhovered"
-                }`}
+                className={`blog-single ${hoveredIndex === index ? "hovered" : "unhovered"
+                  }`}
                 onMouseEnter={() => handleMouseEnter(index)}
                 onMouseLeave={handleMouseLeave}
                 key={index}
@@ -60,9 +59,8 @@ const BlogsHome = () => {
                   className={` ${hoveredIndex === index ? "hovhr" : "unhovhr"}`}
                 />
                 <div
-                  className={`bdate ${
-                    hoveredIndex === index ? "hovdate" : "unhovdate"
-                  }`}
+                  className={`bdate ${hoveredIndex === index ? "hovdate" : "unhovdate"
+                    }`}
                 >
                   {blog.date}
                 </div>

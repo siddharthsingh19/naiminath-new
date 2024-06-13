@@ -4,7 +4,7 @@ import ShowModal from "./modal/ShowModal";
 
 const counters = [
   { num: "576 K+", val: "Patients Treated" },
-  { num: "100+", val: "Treatment's" },
+  { num: "100+", val: "Treatment" },
   { num: "3+", val: "Best College Awards" },
 ];
 
@@ -43,7 +43,7 @@ const ApplyHome = () => {
     <div className="applyHome">
       <div className="apply-box">
         <div className="apply-sec">
-          <h3 className="why-heading">Apply for Admissions</h3>
+          <h3 className="why-heading roboto-serif-heading">Apply for Admissions</h3>
           <hr className="hr" />
           <p className="applyp">
             At Naiminath Ayurvedic Medical College we don’t expect intelligence
@@ -66,7 +66,7 @@ const ApplyHome = () => {
           <div className="count">
 
             <div className="count-num">{visitCount} +</div>
-            <div className="count-val">Total Website Visit</div>
+            <div className="count-val">Total Website Visit's</div>
           </div>
         </div>
       </div>

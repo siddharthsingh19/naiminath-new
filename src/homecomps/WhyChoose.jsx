@@ -28,7 +28,7 @@ const WhyChoose = () => {
     <>
       <div className="why-container">
         <div className="why-wrapper">
-          <h3 className="why-heading lined-heading">Why Choose Naiminath</h3>
+          <h3 className="why-heading roboto-serif-heading lined-heading">Why Choose Naiminath</h3>
           {/* <hr className="hr" /> */}
           <p className="about-p  p-[20px]">
             Premier Ayurvedic education, merging tradition with modernity,
