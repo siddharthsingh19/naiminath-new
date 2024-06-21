@@ -65,6 +65,7 @@ const Home = () => {
       <TestimonialHome />
       <SocialPost />
       <EventsHome />
+      <div id="formsID7375">hola</div>
       <Glimpse />
       <ApplyHome />
       {/* <GalleryHome /> */}
